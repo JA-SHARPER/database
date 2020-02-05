@@ -120,10 +120,7 @@ namespace database
                         con.Open();
                         hijo.Insert(hijo, con);
                         con.Close();
-
                         break;
-
-
 
                     default:
                         Console.WriteLine("seletcione algo");
